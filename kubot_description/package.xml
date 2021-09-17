@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="2">
 	<name>kubot_description</name>
-	<version>0.6.2</version>
+	<version>1.6.2</version>
 	<description>
-		The KUBOT robot description urdf, xacro and rviz package.
+		KUBOT Robots' description TF, urdf, xacro and RViZ package.
 	</description>
 	<maintainer email="YunHong.Wang@ShanYangYe.com">Yun Hong</maintainer>
 
@@ -22,6 +22,5 @@
 	<!-- The export tag contains other, unspecified, tags -->
 	<export>
 		<!-- Other tools can request additional information be placed here -->
-
 	</export>
 </package>
