@@ -11,7 +11,7 @@
 			<visual>
 				<origin xyz="0 0 0" rpy="0 0 0" />
 				<geometry>
-					<mesh filename="package://kubot_description/meshes/camera_frame/$(arg sensor)/camera_link.stl" />
+					<mesh filename="package://kubot_description/meshes/camera_frame/$(arg camera)/camera_link.stl" />
 				</geometry>
 				<xacro:material_dark_grey />
 			</visual>
@@ -19,7 +19,7 @@
 			<collision>
 				<origin xyz="0 0 0" rpy="0 0 0" />
 				<geometry>
-					<mesh filename="package://kubot_description/meshes/camera_frame/$(arg sensor)/camera_link.stl" />
+					<mesh filename="package://kubot_description/meshes/camera_frame/$(arg camera)/camera_link.stl" />
 				</geometry>
 				<xacro:material_white />
 			</collision>
